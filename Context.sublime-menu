@@ -1,0 +1,10 @@
+[  
+    {
+	"caption": "Format SQL",
+	"command": "ep_format_sql"
+    },
+    {
+	"caption": "Explain Analyze",
+	"command": "ep_explain_analyze"
+    }
+]

@@ -1,0 +1,20 @@
+{
+	"api_url": "https://explain.tensor.ru",
+	"explain": {
+		"ANALYZE":		true,
+		"VERBOSE":		false,
+		"COSTS":		false,
+		"SETTINGS":		false,
+		"GENERIC_PLAN":	false,
+		"BUFFERS":		true,
+		"WAL":			false,
+		"TIMING":		true,
+		"SUMMARY":		false
+	},
+	// possible values are:
+	//  popup_text - opens popup with link
+	//  popup_diagram - opens popup window with diagram
+	//  newtab - opens diagram in sublime's new tab
+	//  browser - opens immediately in system browser's new tab 
+	"show_link": "popup_text"
+}

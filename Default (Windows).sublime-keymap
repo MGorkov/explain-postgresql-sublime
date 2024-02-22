@@ -1,0 +1,8 @@
+[
+    {
+			// "keys": [ "ctrl+shift+f" ],	"command": "ep_format_sql"
+    },
+    {
+			// "keys": [ "ctrl+shift+e" ],	"command": "ep_explain_analyze"
+    }
+]

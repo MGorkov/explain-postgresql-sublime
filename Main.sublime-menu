@@ -1,0 +1,61 @@
+[  
+    {  
+				"id": "edit",
+				"children":
+						[
+								{
+										"caption": "Format SQL",
+										"command": "ep_format_sql",
+								},
+								{
+										"caption": "Explain Analyze",
+										"command": "ep_explain_analyze",
+								}
+						]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Explain PostgreSQL",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings", "args":
+                                {
+                                    "base_file": "${packages}/Explain PostgreSQL/Explain PostgreSQL.sublime-settings",
+                                    "default": "// Settings in here override those in \"Explain PostgreSQL/Explain PostgreSQL.sublime-settings\"\n{\n\t$0\n}\n"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings",
+                                "command": "edit_settings", "args":
+                                {
+                                    "base_file": "${packages}/Explain PostgreSQL/Default ($platform).sublime-keymap",
+                                    "default": "[\n\t$0\n]\n"
+                                }
+                            },
+                            {
+                                "caption": "README",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Explain PostgreSQL/README.md"
+                                }
+                            }                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
