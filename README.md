@@ -1,4 +1,4 @@
-![Explain PostgreSQL](https://github.com/MGorkov/explain-postgresql-sublime/blob/main/images/explain-logo.png?raw=true) Explain PostgreSQL
+![Explain PostgreSQL](https://github.com/MGorkov/explain-postgresql-sublime/blob/master/images/explain-logo.png?raw=true) Explain PostgreSQL
 ===============
 
 Analyzes EXPLAIN plan from PostgreSQL and related (Greenplum, Citus, TimescaleDB and Amazon RedShift).
@@ -12,13 +12,13 @@ Uses the public api from the [explain.tensor.ru](https://explain.tensor.ru/api-d
 ## Features
 
 * Beautifier and formatter for SQL <kbd>CTRL+ALT+f</kbd>
-![Beautifier and formatter for SQL](https://github.com/MGorkov/explain-postgresql-sublime/blob/main/images/formatter.gif?raw=true)
+![Beautifier and formatter for SQL](https://github.com/MGorkov/explain-postgresql-sublime/blob/master/images/formatter.gif?raw=true)
 * Explain Analyze for query plan <kbd>CTRL+ALT+e</kbd>
-![Beautifier and formatter for SQL](https://github.com/MGorkov/explain-postgresql-sublime/blob/main/images/explainer.gif?raw=true)
+![Beautifier and formatter for SQL](https://github.com/MGorkov/explain-postgresql-sublime/blob/master/images/explainer.gif?raw=true)
 
 ## Settings
 
-![Explain PostgreSQL settings](https://github.com/MGorkov/explain-postgresql-sublime/blob/main/images/settings.png?raw=true)
+![Explain PostgreSQL settings](https://github.com/MGorkov/explain-postgresql-sublime/blob/master/images/settings.png?raw=true)
 
 ## Installing
 
