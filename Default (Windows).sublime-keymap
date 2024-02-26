@@ -1,8 +1,8 @@
 [
     {
-			// "keys": [ "ctrl+shift+f" ],	"command": "ep_format_sql"
+			"keys": [ "ctrl+alt+f" ],	"command": "ep_format_sql"
     },
     {
-			// "keys": [ "ctrl+shift+e" ],	"command": "ep_explain_analyze"
+			"keys": [ "ctrl+alt+e" ],	"command": "ep_explain_analyze"
     }
 ]

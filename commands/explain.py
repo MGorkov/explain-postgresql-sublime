@@ -1,7 +1,10 @@
 import sublime
 import sublime_plugin
 import webbrowser
-import SQLTools.SQLTools
+try:
+	import SQLTools.SQLTools
+except Exception as e:
+	print(e)
 
 from ..utils import *
 

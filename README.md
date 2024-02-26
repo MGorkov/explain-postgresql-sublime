@@ -11,9 +11,9 @@ Uses the public api from the [explain.tensor.ru](https://explain.tensor.ru/api-d
 
 ## Features
 
-* Beautifier and formatter for SQL <kbd>CTRL+SHIFT+f</kbd>
+* Beautifier and formatter for SQL <kbd>CTRL+ALT+f</kbd>
 ![Beautifier and formatter for SQL](https://github.com/MGorkov/explain-postgresql-sublime/blob/main/images/formatter.gif?raw=true)
-* Explain Analyze for query plan <kbd>CTRL+SHIFT+e</kbd>
+* Explain Analyze for query plan <kbd>CTRL+ALT+e</kbd>
 ![Beautifier and formatter for SQL](https://github.com/MGorkov/explain-postgresql-sublime/blob/main/images/explainer.gif?raw=true)
 
 ## Settings
