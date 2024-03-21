@@ -5,7 +5,6 @@ from .http_noredirect import *
 
 __all__ = [
 	'check_deps',
-	'load_plugin_settings',
 	'get_plugin_settings',
 	'check_is_visible',
 	'send_post_request',

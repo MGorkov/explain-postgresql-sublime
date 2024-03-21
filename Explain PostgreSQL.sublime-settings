@@ -16,5 +16,5 @@
 	//  popup_diagram - opens popup window with diagram
 	//  newtab - opens diagram in sublime's new tab
 	//  browser - opens immediately in system browser's new tab 
-	"show_link": "popup_text"
+	"show_link": "browser"
 }

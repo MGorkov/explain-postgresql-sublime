@@ -1,8 +1,16 @@
 [
-    {
-			"keys": [ "command+option+f" ],	"command": "ep_format_sql"
-    },
-    {
-			"keys": [ "command+option+e" ],	"command": "ep_explain_analyze"
-    }
+    // {
+	// 		"keys": [ "command+shift+g" ],
+	// 		"command": "ep_format_sql",
+	// 		"context": [
+	// 			{ "key": "selector", "operand": "source.sql"}
+	// 		]			
+    // },
+    // {
+	// 		"keys": [ "command+shift+e" ],
+	// 		"command": "ep_explain_analyze",
+	// 		"context": [
+	// 			{ "key": "selector", "operand": "source.sql"}
+	// 		]			
+    // }
 ]

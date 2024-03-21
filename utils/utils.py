@@ -27,11 +27,12 @@ def check_deps():
 		return True
 
 def check_is_visible(view):
-	syntax = view.settings().get("syntax")
-	if (syntax.endswith("SQL.sublime-syntax")):
-		return True
-	else:
-		return False
+	return view.match_selector(0, 'source.sql')
+	# syntax = view.settings().get("syntax")
+	# if (syntax.endswith("SQL.sublime-syntax")):
+	# 	return True
+	# else:
+	# 	return False
 
 def send_post_request(url, data, parse=False):
 	data = json.dumps(data).encode('utf-8')

@@ -1,5 +1,5 @@
 from .commands import *
-from .utils import load_plugin_settings
+from .utils import check_deps
 
 def plugin_loaded():
-	load_plugin_settings()
+	check_deps()
